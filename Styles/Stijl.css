@@ -102,6 +102,8 @@ li {
     background-color: #4CAF50;
 }
 
+/*Linken Startpagina*/
+
 .LinkImages img {
     float: left;
     width: 120px;
@@ -109,12 +111,14 @@ li {
     margin: 20px 0px 0px 20px;
 }
 
+/*Structuur*/
+
 main {
     width: fit-content;
     margin: 50px 0 0 500px;
 }
 
-.tekstvak {
+.Tekstvak {
     box-sizing: border-box;
     display: inline-block;
     background-color: #5B5B5B;
@@ -126,30 +130,30 @@ main {
     vertical-align: top;
 }
 
-.groot {
+.Groot {
     height: 660px;
 }
 
-.squeeze {
+.Squeeze {
     margin-top: -330px;
 }
 
-.leeg {
+.Leeg {
     background-color: #E9E9E9;
 }
 
-.mainproject {
+.Mainproject {
     width: 635px;
 }
 
-.side {
+.Side {
     width: 416.09px;
     height: 206.66px;
 }
 
 /*Form*/
 
-.formulier {
+.Formulier {
     padding-left: 250px;
 }
 
@@ -200,13 +204,13 @@ input[type="checkbox"]{
     margin-left: 5px;
 }
 
-.nieuwsbrief {
+.Nieuwsbrief {
     text-align: left;
     min-width: 0px;
     color: #FFFFFF;
 }
 
-.button {
+.Button {
     background-color: #5B5B5B;
     border: 2px #5B5B5B solid;
     border-radius: 20px;
@@ -214,15 +218,15 @@ input[type="checkbox"]{
     padding: 8px;
 }
 
-.button:hover {
+.Button:hover {
     cursor: pointer; 
 }
 
-.link {
+.Link {
     text-decoration: none;
 }
 
-.link img:hover {
+.Link img:hover {
     border: #4CAF50 solid 5px;
 }
 
@@ -230,7 +234,7 @@ input[type="checkbox"]{
     width: 50%;
 }
 
-.project {
+.Project {
     display: inline-block;
     background-color: #5B5B5B;
     border-radius: 20px;
@@ -238,18 +242,22 @@ input[type="checkbox"]{
     width: 1300px;
 }
 
-.project p {
+.Project p {
     margin: 50px;
 }
 
-.comingsoon {
+.Comingsoon {
     mix-blend-mode: multiply;
     padding-left: 147.5px;
 }
 
-.underconstruction {
+.Underconstruction {
     mix-blend-mode: multiply;
     margin-left: 400px;
     padding: 50px;
     width: 20%;
+}
+
+.NAS img{
+    width: 100%;
 }
