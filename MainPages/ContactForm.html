@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../Styles/Stijl.css" />
+</head>
+
+<body>
+    <aside class="Afbeeldingen">
+        <figure>
+            <img class="Profielfoto" src="../Pictures/ikke.jpg" alt="Foto Auteur">
+        </figure>
+
+        <figure>
+            <img class="SidePicture" src="../Pictures/Programmer.png" alt="Illustratie Programmeur">
+        </figure>
+    </aside>
+    <header>
+        <nav class="Navigatiebar">
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="Werkplekleren.html">Werkplekleren</a></li>
+                <li><a href="Projecten.html">Projecten</a></li>
+                <li class="active"><a href="ContactForm.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main formulier">
+        <form action="../Form/form.php" method="post">
+            <h1><strong>Formulier</strong></h1>
+            <fieldset>
+                <legend><strong>Persoonlijke gegevens</strong></legend>
+                <ul>
+                    <li>
+                        <label for="firstname">Voornaam:</label>
+                        <input type="text" id="firstname" name="user_firstname">
+                    </li>
+                    <li>
+                        <label for="lastname">Achternaam:</label>
+                        <input type="text" id="lastname" name="user_lastname">
+                    </li>
+                    <li>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="user_email">
+                    </li>
+                    <li>
+                        <label for="gsmnummer">Gsm-nummer: </label>
+                        <input type="tel" id="gsmnummer" name="tel">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Uw vraag</strong></legend>
+                <ul>
+                    <li>
+                        <label for="typevraag">Uw soort vraag:</label>
+                        <select name="typevraag" id="typevraag">
+                            <option selected>Algemene vraag</option>
+                            <option>Andere vraag</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="vraag">Uw vraag:</label>
+                        <textarea cols="30" rows="8" id="vraag" name="vraag"></textarea>
+                    </li>
+                </ul>
+                <label class="nieuwsbrief" for="nieuwsbrief">Onze nieuwsbrief ontvangen?
+                    <input type="checkbox" id="nieuwsbrief" name="subscribe">
+                </label>
+            </fieldset>
+            <button class="button" type="submit">Verzenden</button>
+        </form>
+    </main>
+</body>
+
+</html>
